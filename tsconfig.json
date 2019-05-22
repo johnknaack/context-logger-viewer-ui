@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": false, // TODO Use true once there is time to refactor
+        "allowJs": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es2015",
+            "scripthost",
+            "es2015.promise"
+        ]
+    }
+}
